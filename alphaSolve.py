@@ -60,6 +60,7 @@ if __name__ == "__main__":
 	problem = constraint.Problem()
 	
 	problem.addVariables(m, range(0,10))
-	
+
+	#TODO: make multiple argumets constraint function
 	
 	
