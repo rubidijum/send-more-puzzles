@@ -6,6 +6,7 @@ var = []
 variables = []
 heja = []
 firstletters = []
+m = []
 
 def parseLetters(variable):
     number = []
@@ -30,11 +31,8 @@ def constraintFunc(*args):
     suma = 0
    
     i = 0
-    recnik = dict(zip(heja,args))
-    #print args
-    print dict(zip(heja,args))
-    #print 
-
+    recnik = dict(zip(m,args))
+    
     for left in leftside:
         #print left, "levo"
         exponent = len(left) - 1
